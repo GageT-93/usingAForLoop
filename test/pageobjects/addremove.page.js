@@ -15,8 +15,12 @@ class AddRemovePage extends Page {
         return $('<h3 />')
     }
 
+    // get btnAddElement () {
+    //     return $('button=Add Element');
+    // }
+
     get btnAddElement () {
-        return $('button[type="addElement()"]');
+        return $('button*=Add');
     }
 
     /**
