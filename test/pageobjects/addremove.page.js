@@ -23,6 +23,14 @@ class AddRemovePage extends Page {
         return $('button*=Add');
     }
 
+    get btnDeleteElement () {
+        return $$('.added-manually')
+    }
+
+    get btnDeleteClick () {
+        return $('button=Delete')
+    }
+
     /**
      * a method to encapsule automation code to interact with the page
      * e.g. to login using username and password
